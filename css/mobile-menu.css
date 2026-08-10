@@ -14,8 +14,8 @@
   background-color: #14141466;
 }
 .mobile-overlay.is-open {
-  opacity: 0;
-  pointer-events: none;
+  opacity: 1;
+  pointer-events: auto;
   visibility: visible;
 }
 .mobile-menu {
