@@ -1,0 +1,135 @@
+.footer {
+  background-color: #7a3145;
+}
+.footer-container {
+  padding: 40px 20px;
+}
+
+.footer-logo-and-text {
+  margin-bottom: 40px;
+}
+.footer-logo-svg {
+  width: 168px;
+  height: 16px;
+  margin-bottom: 14px;
+}
+
+.footer-section-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.footer-section-list {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.footer-address-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-tel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+  font-style: normal;
+}
+.footer-addres-data {
+  width: 179px;
+  height: 40px;
+  margin-bottom: 80px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+  font-style: normal;
+}
+
+.footer-privacy-policy-data {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+
+  color: #d4bfc4;
+}
+.footer-copyright-symbol {
+  color: #d4bfc4;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    row-gap: 100px;
+
+    padding: 32px;
+  }
+  .footer-logo-and-text {
+    margin-bottom: 0;
+    width: 265px;
+  }
+  .footer-logo-svg {
+    width: 216px;
+    height: 20px;
+    margin-bottom: 24px;
+  }
+  .footer-logo-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .footer-section-links {
+    width: 228px;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .footer-address-info {
+    gap: 24px;
+  }
+  .footer-tel {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .footer-addres-data {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 0px;
+  }
+
+  .footer-privacy-policy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-basis: 100%;
+
+    font-size: 16px;
+  }
+  .footer-privacy-policy-data {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    padding: 52px 100px;
+  }
+  .footer-section-list-and-adress {
+    display: flex;
+    justify-content: space-between;
+    width: 565px;
+  }
+  .footer-section-links {
+    margin-bottom: 0;
+  }
+}

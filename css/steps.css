@@ -1,0 +1,161 @@
+.steps {
+  background-color: #576f35;
+}
+.steps-container {
+  padding: 0;
+}
+
+.steps-container-img {
+  padding: 40px 20px;
+
+  background-color: #7a3145;
+}
+.steps-img {
+  border-radius: 30px;
+}
+
+.steps-container-wrapper {
+  padding: 80px 20px;
+}
+
+.steps-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.steps-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.steps-title-span {
+  color: #d4bfc4;
+}
+
+.steps-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.steps-container-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  width: 100%;
+  height: 84px;
+  border-radius: 15px;
+
+  color: #858585;
+  background-color: #fbfbfb;
+}
+
+.steps-container-one {
+  padding: 12px 27px;
+}
+
+.steps-container-two {
+  padding: 12px 59px 12px 24px;
+}
+
+.steps-container-three {
+  padding: 12px 24px;
+}
+.steps-list-span {
+  font-weight: 700;
+  color: #141414;
+}
+.steps-list-text {
+  width: 208px;
+}
+
+.steps-list-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border: 3px solid #d4bfc4;
+
+  background-color: #7a3145;
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .steps-container-img {
+    padding: 100px 64px;
+  }
+
+  .steps-container-wrapper {
+    padding: 100px 164px;
+  }
+
+  .steps-container-text {
+    width: 440px;
+    gap: 24px;
+    padding-bottom: 52px;
+  }
+  .steps-title {
+    font-size: 32px;
+  }
+  .steps-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .steps-container-list {
+    gap: 24px;
+  }
+  .steps-list-text {
+    width: 325px;
+  }
+  .steps-container-content {
+    height: 76px;
+
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .steps-container-one {
+    padding: 12px 15px 12px 24px;
+  }
+
+  .steps-container-two,
+  .steps-container-three {
+    padding: 12px 17px 12px 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .steps-container-img {
+    width: 640px;
+    padding: 100px;
+  }
+
+  .steps-container-wrapper {
+    padding: 100px;
+  }
+
+  .steps-container-text {
+    padding-bottom: 104px;
+  }
+}

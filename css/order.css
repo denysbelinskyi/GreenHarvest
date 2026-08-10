@@ -1,0 +1,269 @@
+.order {
+  background-color: #576f35;
+}
+.order-container {
+  padding: 80px 20px;
+}
+
+.order-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.order-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.order-span {
+  color: #d4bfc4;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 30px;
+  width: 335px;
+  height: 552px;
+
+  padding: 40px 19px;
+
+  background-color: #fbfbfb;
+
+  margin-bottom: 20px;
+}
+.form-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+
+  margin-bottom: 40px;
+}
+.form-first-span {
+  color: #7a3145;
+}
+.form-second-span {
+  color: #576f35;
+}
+
+.order-form-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+.form-input {
+  border: 1px solid #858585;
+  border-radius: 30px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+  width: 295px;
+  height: 48px;
+}
+.form-input:hover,
+.form-input:focus {
+  outline: none;
+  border-color: #7a3145;
+}
+.form-textarea {
+  border: 1px solid #858585;
+  border-radius: 15px;
+
+  padding: 14px 16px;
+
+  width: 295px;
+  height: 92px;
+
+  margin-bottom: 20px;
+}
+.form-textarea:hover,
+.form-textarea:focus {
+  outline: none;
+  border-color: #7a3145;
+}
+.order-form-button {
+  display: block;
+
+  margin: 0 auto;
+
+  border-radius: 30px;
+  padding: 16px 129px;
+  width: 295px;
+  height: 52px;
+
+  background-color: #7a3145;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.order-form-button:hover,
+.order-form-button:focus {
+  background-color: #d4bfc4;
+  color: #7a3145;
+}
+
+.order-img {
+  border-radius: 30px;
+  padding: 40px 20px;
+  width: 335px;
+  height: 456px;
+
+  background-color: #7a3145;
+}
+.order-img-wrapper {
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.order-img-text {
+  font-weight: 700;
+  color: #d4bfc4;
+  padding-bottom: 16px;
+}
+.order-img-text-social-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 8px;
+
+  width: 295px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.text-social-span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-container {
+    padding: 100px 0;
+  }
+
+  .order-text-container {
+    gap: 24px;
+    margin-left: 32px;
+    margin-right: 96px;
+    margin-bottom: 52px;
+  }
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+  }
+  .order-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .form-and-links {
+    margin: 0 64px;
+  }
+  .form {
+    width: 640px;
+    height: 632px;
+
+    padding: 72px 100px;
+
+    margin-bottom: 32px;
+  }
+  .form-text {
+    font-size: 32px;
+    margin-bottom: 52px;
+  }
+  .form-input {
+    width: 440px;
+    height: 52px;
+  }
+  .form-textarea {
+    width: 440px;
+    height: 96px;
+
+    margin-bottom: 24px;
+  }
+  .order-form-button {
+    width: 440px;
+    height: 52px;
+  }
+
+  .order-img {
+    padding: 52px;
+
+    width: 640px;
+    height: 528px;
+  }
+  .order-img-wrapper {
+    margin-bottom: 52px;
+  }
+  .order-img-text {
+    line-height: 1.25;
+  }
+  .order-img-text-social-wrapper {
+    flex-wrap: nowrap;
+
+    width: 492px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-container {
+    padding: 100px;
+  }
+  .order-text-container {
+    width: 751px;
+  }
+  .form-and-links {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+  }
+  .form {
+    width: 524px;
+    height: 592px;
+
+    padding: 52px 48px;
+
+    margin-bottom: 0;
+  }
+  .form-input {
+    width: 428px;
+  }
+  .form-textarea {
+    width: 428px;
+  }
+  .order-form-button {
+    width: 428px;
+  }
+
+  .order-img {
+    padding: 52px 48px;
+
+    width: 524px;
+    height: 592px;
+  }
+  .order-img-wrapper {
+    margin-bottom: 80px;
+  }
+  .order-img-text-social-wrapper {
+    width: 386px;
+  }
+}

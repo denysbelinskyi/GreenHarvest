@@ -1,0 +1,52 @@
+.discount-container {
+  padding: 80px 20px;
+}
+
+.discount-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  color: #141414;
+}
+
+.discount-span {
+  display: block;
+
+  font-weight: 600;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  border-radius: 12px;
+
+  color: #fbfbfb;
+  background-color: #576f35;
+}
+
+@media screen and (min-width: 768px) {
+  .discount-container {
+    padding: 100px 32px;
+  }
+  .discount-text {
+    font-size: 64px;
+  }
+  .discount-span {
+    width: 675px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .discount-container {
+    padding: 100px;
+  }
+  .discount-text {
+    font-size: 76px;
+    width: 1078px;
+  }
+  .discount-span {
+    display: inline;
+  }
+}
